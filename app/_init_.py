@@ -47,5 +47,5 @@ if not app.debug:
 
     app.logger.setLevel(logging.INFO)
     app.logger.info('Microblog startup')
-Rowan was here
+
 from app import routes, models, errors
